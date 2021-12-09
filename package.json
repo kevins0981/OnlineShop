@@ -1,0 +1,33 @@
+{
+  "name": "onlineshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node" :"14.x"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@stripe/stripe-js": "^1.21.2",
+    "bcrypt": "^5.0.1",
+    "connect-mongodb-session": "^3.1.1",
+    "csurf": "^1.11.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongo": "^0.1.0",
+    "mongodb": "^4.2.0",
+    "multer": "^1.4.3",
+    "next": "^12.0.7",
+    "stripe": "^8.191.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
