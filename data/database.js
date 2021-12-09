@@ -1,6 +1,6 @@
-const mondgodb = require("mongodb");
+const mongodb = require("mongodb");
 
-const mongoClient = mondgodb.MongoClient;
+const mongoClient = mongodb.MongoClient;
 
 let mongodbUrl = 'mongodb://localhost:27017';
 
