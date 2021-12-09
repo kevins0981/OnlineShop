@@ -2,7 +2,7 @@ const mondgodb = require("mongodb");
 
 const mongoClient = mondgodb.MongoClient;
 
-let mongodbUrl = 'mongodb://localhost:27017/online-shop';
+let mongodbUrl = 'mongodb://localhost:27017';
 
 if (process.env.MONGODB_URL){
     mongodbUrl = process.env.MONGODB_URL;
