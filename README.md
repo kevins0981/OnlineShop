@@ -2,7 +2,8 @@
 
 install Dependencies 
 
-npm install @stripe/stripe-js bcrypt mongodb express uuid nodemon
+- npm install @stripe/stripe-js bcrypt mongodb express uuid nodemon
 
 start app
-npm start
+
+- npm start
